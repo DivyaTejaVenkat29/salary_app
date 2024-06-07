@@ -12,7 +12,7 @@ Below are our salary predictions based on experience.
 """)
 
 # Import the dataset
-dataset = pd.read_excel("D:\\ML\\5th\\salary.xlsx")
+dataset = pd.read_excel("salary.xlsx")
 
 # Split the data into independent (X) and dependent (y) variables
 X = dataset.iloc[:, :-1].values
